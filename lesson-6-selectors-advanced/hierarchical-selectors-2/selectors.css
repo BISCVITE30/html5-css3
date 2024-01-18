@@ -1,9 +1,9 @@
-.already-lneeard ul {
+.already-lneeard ol {
     background-color: green;
     color: white;
 }
 
-.already-lneeard ul code {
+.already-lneeard ol code {
     background-color: orange;
 }
 
