@@ -3,6 +3,10 @@
     color: white;
 }
 
+.already-lneeard ul code {
+    background-color: orange;
+}
+
 .to-be-learned ol {
     background-color: orange;
     color: green;
@@ -10,7 +14,6 @@
 
 .to-be-learned code {
     background-color: green;
-    color: white;
 }
 
 #special1 + li > h4 > code {
