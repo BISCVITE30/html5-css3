@@ -14,14 +14,14 @@ a[href$=".com"] {
   margin-left: 50px;
 }
 
-[lang|="en"] {
-    font-size: 10px;
+a[lang|="en"] {
+  font-size: 10px;
 }
 
 a[href*="www"] {
-    color: green;
+  color: green;
 }
 
-[title*="popular"] {
-    font-size: 24px;
+a[title~="popular"] {
+  font-size: 24px;
 }
