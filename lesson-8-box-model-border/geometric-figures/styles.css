@@ -4,7 +4,7 @@ div{
 }
 
 .rectangle{
-    border-radius: 15px;
+    border-radius: 20px;
     height: 50px;
     width: 100px;
     background-color: forestgreen;
@@ -27,6 +27,6 @@ div{
 .triangle{
     height: 100px;
     width: 100px;
-    border: 51px solid;
+    border: 50px solid;
     border-color: brown transparent transparent transparent;
 }
