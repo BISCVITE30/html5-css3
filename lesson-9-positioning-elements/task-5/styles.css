@@ -13,12 +13,17 @@ nav {
 }
 
 .nav-item {
-    display: flex;
+    display: flow-root;
     float: left;
     margin-left: 16px;
     color: white;
     height: 40px;
-    line-height: 50%;
+    line-height: calc(50% + 30px);
+}
+
+li{
+    position: relative;
+    bottom: 16px;
 }
 
 .content {
