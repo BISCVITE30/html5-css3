@@ -9,8 +9,7 @@
     z-index: 2;
 }
 nav {
-    position: relative;
-    line-height: 50%;
+    background-color: darkturquoise;
     height: 40px;
 }
 
