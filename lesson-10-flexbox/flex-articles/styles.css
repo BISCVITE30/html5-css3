@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+header{
+    display: flex;
+}
+h1 {
+    margin: auto;
+}
+
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    flex-basis: 300px;
+    flex-wrap: 0;
+    flex-grow: 1;
+}
