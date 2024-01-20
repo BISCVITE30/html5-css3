@@ -4,6 +4,7 @@
 }
 
 .menu-button {
+    display: inline-block;
     position: relative;
     padding: 16px;
     background-color: darkgreen;
@@ -30,11 +31,14 @@
 .menu-item {
     padding: 16px;
     list-style-type: none;
+    
 }
-
 .menu-item:hover {
     background-color: ghostwhite;
 }
+/* .dropdown:hover .menu-item {
+    background-color: ghostwhite;
+} */
 
 .dropdown:hover .menu-list {
     display: contents;
