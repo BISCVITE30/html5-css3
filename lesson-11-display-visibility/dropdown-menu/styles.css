@@ -1,0 +1,42 @@
+.dropdown {
+    margin: 16px;
+    display: inline-block;
+}
+
+.menu-button {
+    position: relative;
+    padding: 16px;
+    background-color: darkgreen;
+    opacity: 0.8;
+}
+
+.menu-button:hover {
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.menu-list {
+    display: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;  
+    color: black; 
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+    z-index: 1;
+}
+
+.menu-item {
+    padding: 16px;
+    list-style-type: none;
+}
+
+.menu-item:hover {
+    background-color: ghostwhite;
+}
+
+.dropdown:hover .menu-list {
+    display: contents;
+    position: absolute;
+}
