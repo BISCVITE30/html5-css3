@@ -2,7 +2,6 @@
   display: inline-block;
   margin: 16px;
   border-bottom: 1px dotted black;
-  position: absolute;
 }
 
 .tooltip {
@@ -12,4 +11,5 @@
   padding: 8px;
   position: relative;
   bottom: -40px;
+  left: -100px;
 }
