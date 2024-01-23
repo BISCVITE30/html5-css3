@@ -20,6 +20,7 @@
     font-weight: 700px;
     opacity: 0.5;
     cursor: pointer;
+    z-index: 1;
 }
 
 .image-button:hover {
