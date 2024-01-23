@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.image-container {
+    position: relative;
+}
+
 .image {
     display:block;
     margin: auto;
@@ -10,6 +14,7 @@
 
 .image-button {
     text-align: center;
+    display: block;
     position: absolute;
     top: calc(50% - 25px);
     left: calc(50% - 100px);
