@@ -18,6 +18,7 @@
     background-color: bisque;
     font-size: 12px;
     font-weight: 700px;
+    text-transform: uppercase;
     opacity: 0.5;
     cursor: pointer;
     z-index: 1;
