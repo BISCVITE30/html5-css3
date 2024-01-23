@@ -4,6 +4,8 @@
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
     background-position: center;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     left:calc(50% - 150px);
     font-size: 32px;
