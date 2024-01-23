@@ -1,15 +1,15 @@
 .gallery {
-    display: flex;
+  display: flex;
 }
 
 .image {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: center;
-    background-position-y: center;
-    background-clip: border-box;
-    height: 200px;
-    width: 200px;
-    margin: 16px;
-    border: 1px dotted grey;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
+  background-clip: border-box;
+  height: 200px;
+  width: 200px;
+  margin: 16px;
+  border: 1px dotted grey;
 }
