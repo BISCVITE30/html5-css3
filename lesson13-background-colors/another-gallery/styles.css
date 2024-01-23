@@ -5,7 +5,8 @@
 .image {
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
     background-clip: padding-box;
     height: 200px;
     width: 200px;
