@@ -16,14 +16,24 @@
   <body>
     <form>
       <div>
-        <input type="text" name="lastName" value="Emerson" />
-      </div>
-      <div>
-        <input type="number" name="age" value="17" />
+        <label>
+          <input type="text" name="lastName" value="Emerson" readonly />
+        </label>
       </div>
       <div>
         <label>
-          <input type="checkbox" name="agree" />
+          <input
+            type="number"
+            name="age"
+            value="17"
+            minlength="3"
+            maxlength="10"
+          />
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="checkbox" name="agree" disabled />
           Accept terms and conditions
         </label>
       </div>
@@ -45,6 +55,7 @@
         <textarea
           name="description"
           placeholder="Write description..."
+          maxlength="10"
         ></textarea>
       </div>
       <div>
