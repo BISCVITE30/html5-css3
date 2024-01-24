@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+form {
+    margin: 32px;
+}
+
+div {
+    padding: 8px;
+}
+
+input {
+    display: inline-block;
+}
