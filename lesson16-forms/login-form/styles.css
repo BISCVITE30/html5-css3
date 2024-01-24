@@ -23,10 +23,11 @@
     text-transform: uppercase;
 }
 .form-control {
-    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .form-label {
+    display: inline-block;
     margin-bottom: 4px;
 }
 
