@@ -23,7 +23,7 @@ td,th {
 }
 
 tr {
-    line-height: 30px;
+    line-height: 32px;
 }
 
 tbody > tr:nth-child(odd) {
