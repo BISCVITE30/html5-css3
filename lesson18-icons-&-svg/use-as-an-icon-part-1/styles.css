@@ -16,13 +16,13 @@ button:hover {
     color: darkcyan;
 }
 
-.bird-icon {
+svg {
     fill: white;
     width: 32px;
     height: 32px;
     vertical-align: middle;
 }
 
-.bird-icon:hover {
+svg:hover {
     fill: green;
 }
