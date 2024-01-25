@@ -26,3 +26,7 @@ svg {
 svg:hover {
     fill: green;
 }
+
+i{
+    border-radius: none;
+}
