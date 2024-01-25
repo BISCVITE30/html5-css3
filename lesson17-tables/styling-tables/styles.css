@@ -22,8 +22,12 @@ td,th {
     text-align: right;
 }
 
-tr {
+th {
     line-height: 32px;
+}
+
+td {
+    line-height: 31px;
 }
 
 tbody > tr:nth-child(odd) {
