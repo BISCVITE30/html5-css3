@@ -8,7 +8,9 @@
 }
 
 .spinner {
-    margin: auto;
+    position: absolute;
+    left: calc(50vw - 38px);
+    top: calc(50vh - 44px);
 }
 
 .spinner-text {
