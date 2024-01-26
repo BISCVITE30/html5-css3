@@ -8,23 +8,21 @@
 }
 
 .spinner {
-    display: flex;
+    position: absolute;
+    left: calc(50vw - 38px);
+    top: calc(50vh - 44px);
 }
 
 .spinner-text {
-    position: absolute;
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
     animation: blinking 2s infinite linear;
-    left: calc(50vw - 44px);
-    top: calc(50vh - 9px);
 }
 
 .circle {
-    position: absolute;
-    left: calc(50vw - 25px);
-    top: calc(50vh - 65px);
+    position: relative;
+    left: 16px;
     width: 50px;
     height: 50px;
     border: 4px solid lightgrey;
