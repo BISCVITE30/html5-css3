@@ -17,7 +17,7 @@
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
-    animation: blinking 2s 2s infinite linear;
+    animation: blinking 2s infinite linear;
 }
 
 .circle {
@@ -29,7 +29,7 @@
     border-top-color: black;
     margin-bottom: 8px;
     border-radius: 100%;
-    animation: spin 2s 2s infinite linear;
+    animation: spin 2s infinite linear;
 }
 
 @keyframes blinking {
