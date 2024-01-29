@@ -4,4 +4,99 @@
 
 html {
     font-family: Verdana;
+    color: #555;
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+.header {
+    display: flex;
+    color: white;
+    height: 6%;
+}
+
+h1 {
+    margin: auto;
+    background-image: linear-gradient(60deg, red,orange);
+}
+
+.main {
+    display: flex;
+    height: 90%;
+}
+.footer {
+    display: flex;
+    vertical-align: bottom;
+    background-color: #e5e5e5;
+    padding: .5em;
+    height: 4%;
+}
+
+.navigation,
+.section,
+.news {
+    padding: .5em;
+}
+
+.navigation {
+    width: 20%;
+}
+
+.section {
+    width: 60%;
+    font-size: 1.25em;
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.news {
+    width: 20%;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    background-color: #808080;
+    color: white;
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nav-list-link {
+    width: 100%;
+    padding: 0 .5em;
+    text-decoration: none;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+    
+}
+
+.nav-list-link:visited,
+.nav-list-link:active,
+.nav-list-link:default {
+    color: white;
 }
