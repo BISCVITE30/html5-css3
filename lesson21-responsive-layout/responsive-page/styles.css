@@ -15,24 +15,24 @@ body{
 .header {
     display: flex;
     color: white;
-    height: 6%;
+    background-image: linear-gradient(60deg, red,orange);
+    height: 10%;
 }
 
 h1 {
     margin: auto;
-    background-image: linear-gradient(60deg, red,orange);
+
 }
 
 .main {
     display: flex;
-    height: 90%;
+    height: 85%;
 }
 .footer {
-    display: flex;
-    vertical-align: bottom;
     background-color: #e5e5e5;
     padding: .5em;
-    height: 4%;
+    height: 5%;
+    text-align: center;
 }
 
 .navigation,
@@ -89,14 +89,5 @@ h1 {
     width: 100%;
     padding: 0 .5em;
     text-decoration: none;
-    /* overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; */
-    
-}
-
-.nav-list-link:visited,
-.nav-list-link:active,
-.nav-list-link:default {
     color: white;
 }
