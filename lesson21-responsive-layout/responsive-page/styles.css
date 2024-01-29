@@ -33,6 +33,7 @@ h1 {
 .footer {
     background-color: #e5e5e5;
     padding: .5em;
+    text-align: center;
 }
 
 .navigation,
@@ -84,10 +85,11 @@ h1 {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    padding-right: .5em;
+    padding-left: .5em;
 }
 
 .nav-list-link {
-    padding: 0 .5em;
     color: white;
     text-decoration: none;
     max-width: 100%;
