@@ -9,32 +9,30 @@ html {
     height: 100%;
 }
 
-body{
-    height: 100%;
+body {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
+
 .header {
     display: flex;
     color: white;
-    background-image: linear-gradient(60deg, red,orange);
-    height: 9%;
+    background-image: linear-gradient(60deg, red, orange);
 }
 
 h1 {
     margin: auto;
-
 }
 
 .main {
     display: flex;
-    height: 87%;
+    flex: 1 0 auto;
 }
+
 .footer {
     background-color: #e5e5e5;
     padding: .5em;
-    height: 4%;
-    text-align: center;
 }
 
 .navigation,
@@ -42,7 +40,6 @@ h1 {
 .news {
     padding: .5em;
 }
-
 .navigation {
     width: 20%;
 }
@@ -50,6 +47,10 @@ h1 {
 .section {
     width: 60%;
     font-size: 1.25em;
+}
+
+.news {
+    width: 20%;
 }
 
 .units-list {
@@ -64,31 +65,30 @@ h1 {
 }
 
 .section__header {
-    font-size: 5vw;
     text-align: center;
-}
-
-.news {
-    width: 20%;
+    font-size: 5vw;
 }
 
 .nav-list {
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-list-item {
     background-color: #808080;
     color: white;
     line-height: 2em;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 .nav-list-link {
-    padding: 0 .5em 0 .5em;
-    text-decoration: none;
+    padding: 0 .5em;
     color: white;
+    text-decoration: none;
+    max-width: 100%;
 }
