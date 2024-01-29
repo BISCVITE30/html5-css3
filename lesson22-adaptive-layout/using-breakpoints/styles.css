@@ -5,16 +5,19 @@
 .navigation {
     background-color: #ff7f50;
     display: flex;
+    flex: 1;
 }
 
 .product-list {
     background-color: #006400;
     display: flex;
+    flex: 1;
 }
 
 .news {
     background-color: #0ff;
     display: flex;
+    flex: 1;
 }
 
 div{
@@ -30,31 +33,15 @@ span {
     border-radius: 4px;
 }
 
-@media screen and (max-width: 600px) {
-    section {
+@media screen and (min-width: 600px) {
+    .products {
         display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 899px) {
-    section {
-        display: flex;
-    }
-    div {
-        flex-grow: 1;
+        flex: 2;
     }
 }
 
 @media screen and (min-width: 900px) {
-    main{
+    .content{
         display: flex;
-    }
-    section{
-        display: flex;
-        flex: 1 0 auto;
-    }
-    div {
-        flex: .6 auto;
     }
 }
