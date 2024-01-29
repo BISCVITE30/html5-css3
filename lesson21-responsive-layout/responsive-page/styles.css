@@ -16,7 +16,7 @@ body{
     display: flex;
     color: white;
     background-image: linear-gradient(60deg, red,orange);
-    height: 8%;
+    height: 10%;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 
 .main {
     display: flex;
-    height: 87%;
+    height: 85%;
 }
 .footer {
     background-color: #e5e5e5;
