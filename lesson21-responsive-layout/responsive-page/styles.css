@@ -16,7 +16,6 @@ body {
 }
 
 .header {
-    height: 8%;
     display: flex;
     color: white;
     background-image: linear-gradient(60deg, red, orange);
