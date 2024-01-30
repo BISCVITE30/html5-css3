@@ -73,6 +73,9 @@ body {
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
+.nav-list-item:nth-child(3){
+    margin: 0;
+}
 
 .nav-list-link {
 
