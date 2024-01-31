@@ -10,7 +10,6 @@
   align-items: center;
   list-style-type: none;
 }
-
 .nav-list__item {
   color: #fff;
   border-radius: 4px;
@@ -23,7 +22,6 @@
 .nav-list__item:hover {
   opacity: 0.7;
 }
-
 .nav-list__item_selected {
   background-color: #fb0;
 }
