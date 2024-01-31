@@ -1,0 +1,44 @@
+.nav,
+.product-list,
+.news {
+  height: 200px;
+  background-color: #ff7f50;
+  display: flex;
+  flex: 1;
+}
+.nav_text,
+.product-list_text,
+.news_text {
+  text-transform: lowercase;
+  font-family: Verdana;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.product-list {
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    display: flex;
+    flex: 2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

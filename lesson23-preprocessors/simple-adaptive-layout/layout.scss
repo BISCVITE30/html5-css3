@@ -1,0 +1,40 @@
+$sm:600px;
+$md: 900px;
+
+
+
+.nav,
+.product-list,
+.news{
+    height: 200px;
+    background-color: #ff7f50;
+    display: flex;
+    flex: 1;
+    &_text {
+        text-transform: lowercase;
+        font-family: Verdana;
+        padding: 8px;
+        background-color: #faebd7;
+        border-radius: 4px;
+        margin: auto;
+    }
+}
+
+.product-list{
+    background-color: #006400;
+}
+.news{
+    background-color: #0ff;
+}
+
+@mixin for-medium-up {
+    @media screen and (min-width:$sm) {
+        @content;
+    }
+}
+
+@mixin for-large-up {
+    @media screen and (min-width:$md) {
+        @content;
+    }
+}
